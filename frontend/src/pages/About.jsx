@@ -1,0 +1,3 @@
+import { useLang } from '../context/LanguageContext.jsx';
+import logo from '../assets/logo.png';
+export default function About(){ const {t, lang}=useLang(); return <main className="page-section"><div className="container"><div className="row align-items-center g-5"><div className="col-lg-6"><h1>{t.aboutTitle}</h1><p className="lead-soft">{t.aboutText}</p><p>{lang==='ar'?'متخصصة في الساور دو والمخبوزات الصحية الخفيفة، بطابع بسيط ودافئ يناسب كل بيت.':'Specialized in sourdough and wholesome warm bakes with a simple homey feel.'}</p></div><div className="col-lg-6"><div className="hero-logo-card small-card"><img src={logo} alt="Ajeena" /></div></div></div></div></main> }
