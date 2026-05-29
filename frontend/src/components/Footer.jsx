@@ -20,10 +20,10 @@ export default function Footer(){
       <div className="newsletter-card row align-items-center g-3">
         <div className="col-lg-7">
           <h2>{lang === 'ar' ? 'خلي ريحة العيش توصلك' : 'Let the smell of bread find you'}</h2>
-          <p>{lang === 'ar' ? 'تابعينا للمنيو الجديد والطلبات الموسمية.' : 'Follow for new menu drops and seasonal bakes.'}</p>
+          <p>{lang === 'ar' ? 'تابعنا للمنيو الجديد والطلبات الموسمية.' : 'Follow for new menu drops and seasonal bakes.'}</p>
         </div>
         <div className="col-lg-5">
-          <div className="newsletter-input"><i className="bi bi-envelope"></i><input placeholder={lang === 'ar' ? 'ايميلك' : 'Your email'} /><button>{lang === 'ar' ? 'اشتركي' : 'Subscribe'}</button></div>
+          <div className="newsletter-input"><i className="bi bi-envelope"></i><input placeholder={lang === 'ar' ? 'ايميلك' : 'Your email'} /><button>{lang === 'ar' ? 'اشترك' : 'Subscribe'}</button></div>
         </div>
       </div>
       <div className="row gy-4 footer-main">
@@ -40,7 +40,7 @@ export default function Footer(){
           {menuLinks.map(item => <Link key={item.to} to={item.to} className="footer-link">{lang === 'ar' ? item.ar : item.en}</Link>)}
         </div>
         <div className="col-6 col-lg-2"><h5>{lang === 'ar' ? 'الطلب' : 'Orders'}</h5><Link className="footer-link" to="/cart">{t.checkout}</Link><p>Delivery</p><p>Custom orders</p></div>
-        <div className="col-lg-3"><h5>{t.contact}</h5><p>{lang === 'ar' ? 'تابعينا واطلبي من السوشيال' : 'Follow and order through social media'}</p><p><a href={instagramUrl} target="_blank" rel="noreferrer">Instagram: @aagena.eg</a></p><p><a href={facebookUrl} target="_blank" rel="noreferrer">Facebook</a></p></div>
+        <div className="col-lg-3"><h5>{t.contact}</h5><p>{lang === 'ar' ? 'تابعنا واطلب من ' : 'Follow and order through social media'}</p><p><a href={instagramUrl} target="_blank" rel="noreferrer">Instagram: @aagena.eg</a></p><p><a href={facebookUrl} target="_blank" rel="noreferrer">Facebook</a></p></div>
       </div>
       <div className="copyright">© 2026 {lang === 'ar' ? 'عجينة' : 'Ajeena'} — Bread Without Crumbs</div>
     </div>

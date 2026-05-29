@@ -25,7 +25,7 @@ export default function Home(){
               <p>{t.heroText}</p>
               <div className="d-flex gap-3 flex-wrap justify-content-lg-start justify-content-center">
                 <Link to="/menu" className="primary-btn">{t.exploreMenu}</Link>
-                <Link to="/about" className="secondary-btn">{lang === 'ar' ? 'اعرفي أكتر' : 'Learn more'}</Link>
+                <Link to="/about" className="secondary-btn">{lang === 'ar' ? 'اعرف أكتر' : 'Learn more'}</Link>
               </div>
             </div>
           </div>
@@ -43,7 +43,7 @@ export default function Home(){
     <section className="about-band">
       <div className="container">
         <div className="row align-items-center g-4">
-          <div className="col-lg-6"><h2>{t.aboutTitle}</h2><p>{t.aboutText}</p><Link to="/about" className="text-link">{lang === 'ar' ? 'اعرفي أكتر' : 'Learn more'}</Link></div>
+          <div className="col-lg-6"><h2>{t.aboutTitle}</h2><p>{t.aboutText}</p><Link to="/about" className="text-link">{lang === 'ar' ? 'اعرف أكتر' : 'Learn more'}</Link></div>
           <div className="col-lg-6"><div className="menu-preview"><img src={logo} alt="Ajeena menu" /></div></div>
         </div>
       </div>

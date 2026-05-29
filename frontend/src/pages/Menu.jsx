@@ -42,7 +42,7 @@ export default function Menu(){
   }, [active, products, searchFromUrl]);
   return <main className="page-section">
     <div className="container">
-      <div className="page-head"><span>Bread Without Crumbs</span><h1>{t.categories}</h1><p>{lang === 'ar' ? 'اختاري من مخبوزات عجينة الطازة.' : 'Choose from Ajeena’s fresh warm bakes.'}</p></div>
+      <div className="page-head"><span>Bread Without Crumbs</span><h1>{t.categories}</h1><p>{lang === 'ar' ? 'اختار من مخبوزات عجينة الطازة.' : 'Choose from Ajeena’s fresh warm bakes.'}</p></div>
       <div className="filter-tabs">
         <button onClick={() => changeCategory('all')} className={active==='all'?'active':''}>{t.all}</button>
         {categories.map(c => <button key={c.id} onClick={() => changeCategory(c.slug)} className={active===c.slug?'active':''}>{lang === 'ar' ? c.name_ar : c.name_en}</button>)}

@@ -11,9 +11,9 @@ const dict = {
     orderSuccess:'Order created successfully.', loading:'Loading menu...', all:'All', size:'Size', price:'Price'
   },
   ar: {
-    home:'الرئيسية', menu:'المنيو', about:'عن عجينة', cart:'السلة', contact:'تواصل', orderNow:'اطلبي الآن', exploreMenu:'شوفي المنيو',
+    home:'الرئيسية', menu:'المنيو', about:'عن عجينة', cart:'السلة', contact:'تواصل', orderNow:'اطلب الآن', exploreMenu:'شوف المنيو',
     heroTitle:'عجينة بطيئة، بسيطة، وحقيقية.', heroText:'مخبز دافئ متخصص في الساور دو والمخبوزات اليدوية بتخمير طويل ومكونات بسيطة.',
-    featured:'طالع من الفرن', categories:'المنيو', add:'أضيفي للسلة', view:'التفاصيل', checkout:'الدفع', total:'الإجمالي', subtotal:'المجموع',
+    featured:'طالع من الفرن', categories:'المنيو', add:'أضف للسلة', view:'التفاصيل', checkout:'الدفع', total:'الإجمالي', subtotal:'المجموع',
     remove:'حذف', empty:'السلة فاضية.', placeOrder:'تأكيد الطلب', name:'الاسم', phone:'الموبايل', address:'العنوان', notes:'ملاحظات', send:'إرسال الطلب',
     aboutTitle:'عجينة بطيئة، بسيطة، وحقيقية.', aboutText:'مخبز دافئ متخصص في الساور دو والمخبوزات اليدوية بتخمير طويل ومكونات بسيطة.',
     orderSuccess:'تم تسجيل الطلب بنجاح.', loading:'جاري تحميل المنيو...', all:'الكل', size:'الحجم', price:'السعر'
